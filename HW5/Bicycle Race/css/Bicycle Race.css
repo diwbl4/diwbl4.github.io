@@ -1,0 +1,218 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Light.otf );
+}
+
+html {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg.png");
+    font-family: HelveticaNeue, sans-serif;
+    background-size:cover;
+}
+
+/*------------------------------------------------
+HEADER MENU
+--------------------------------------------------*/
+.header {
+    overflow: hidden;
+    height: 36px;
+    background-color: #075190;
+}
+.header ul {
+    float: right;
+}
+a {
+    color: #53a3db;
+    text-decoration: none;
+}
+.header li {
+    display: inline-block;
+    padding: 10px 10px 10px 6px;
+    /*margin-right: 4px;*/
+    margin-bottom: -8px;
+}
+.header a:hover {
+    color: white;
+}
+
+.header li a:hover {
+    color: white;
+}
+
+.header li:hover {
+    background:#4eabda;
+}
+
+.vender{
+    background-color:#4eabda
+}
+
+.vender a{
+    color: white;
+}
+
+.ajuda {
+    height: 16px;
+    padding-top: 9px;
+    padding-right: 25px;
+    border-right: 1px solid #3c8ac4;
+}
+
+.flag {
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.m-white {
+    color: #ffffff;
+}
+
+.ola {
+    background-color:#4eabda;
+    margin-right: 20px;
+}
+
+.m-white span {
+    text-decoration: underline;
+}
+
+/*------------------------------------------------
+WRAPPER
+--------------------------------------------------*/
+.wrapper {
+    width: 560px;
+    height: 614px;
+    margin-top: 215px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(4, 4, 4, 0.57);
+}
+
+.wrapper h1 {
+    line-height: 60px;
+    border-bottom: 2px solid #ced3bf;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+/*Кнопка с сайта https://www.strava.com/,
+Все таки он был в фотошопе.
+Сделал ее, а не картинкой, чтобы реализовать ховер*/
+
+.login {
+    width: 282px;
+    display: block;
+    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+    margin-top: 40px;
+    border-color:#3b5998;
+    text-shadow:none;
+    background-color:#3b5998;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB%2FpwA%2BAAAAGFBMVEUAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8jfp1fAAAAB3RSTlMA7D8UYSuqwY7ItgAAAEdJREFUCNdjUCyHAiEGcRizkKEcDiDMQmeGcChTmIGBHcp0YDBVhzIN2OBqgdIYzAIGIDBHMNURTHcktWQzxWHMQgZFGFMIAFerRr2lTcdCAAAAAElFTkSuQmCC);
+    background-position:10px center;
+    background-repeat:no-repeat;
+    border-radius: 3px 3px 3px 3px;
+    line-height: 36px;
+}
+
+.login:hover,.login:active{
+    text-decoration:none;
+    color:#fff;
+    background-color:#2F477A;
+    border-color:#2F477A;
+}
+
+.wrapper h4{
+    color: #999999;
+    text-align: center;
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*------------------------------------------------
+REGISTRATION
+--------------------------------------------------*/
+.registration {
+    background-image: none;
+    padding: 0;
+}
+
+.registration input {
+    margin-top: 20px;
+    padding: 0;
+    background-image: none;
+    text-align: center;
+    width: 262px;
+}
+
+input {
+    width: 252px;
+    height: 33px;
+    background: #0f0e0e;
+    border: none;
+}
+
+input[type=checkbox] {
+    width:13px;
+    height:13px;
+}
+
+label {
+    color: gray;
+}
+
+input[placeholder] {
+    font-family: "Helvetica Neue Regular", Tahoma, Arial, sans-serif;
+    color: gray;
+    padding-left: 20px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+input:focus{
+    background: #074b87;
+    box-shadow: 0px 0px 20px 5px rgba(115,154,193,1);
+}
+
+input[type="submit"] {
+    font-family: "Helvetica Neue Regular", Tahoma, Arial, sans-serif;
+    background-image: url(../img/button.png);
+    box-shadow: none;
+    width: 272px;
+    height: 33px;
+    border-radius: 5px;
+    color: white;
+    opacity: 0;
+}
+
+.registration input[type="submit"]{
+    width: 150px;
+    opacity: 1;
+}
+
+.create {
+    padding-bottom: 20px;
+}
+.create :hover{
+    background: #074b87;
+}
+
+.message {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.message p {
+    text-align: center;
+    color: #cccccc;
+    font-size: 11px;
+    line-height: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
+}

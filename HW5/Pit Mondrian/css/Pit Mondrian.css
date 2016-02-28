@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+}
+
+table {
+	margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sev{
+  width: 70px;
+}
+.hund{
+  width: 100px;
+}
+
+.hundt{
+  height: 110px;
+}
+
+.sevt{
+  height: 70px;
+}
+
+.forth{
+  height: 40px;
+}
+.t1 {
+	border-collapse: collapse;
+	border: 5px solid black;
+}
+.t1 td {
+	border: 5px solid black;
+}
+
+.color_yellow {
+	background: yellow;
+}
+.color_red {
+	background: red;
+}
+.color_black {
+	background: black;
+}
+.color_blue {
+	background: blue;
+}
+
+.caption{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
